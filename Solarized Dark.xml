@@ -2,7 +2,8 @@
 <scheme name="Solarized Dark" version="1" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="Liberation Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="" />
     <option name="ANNOTATIONS_COLOR" value="2b36" />
@@ -10,6 +11,10 @@
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="73642" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2b36" />
+    <option name="FILESTATUS_MODIFIED" value="f7fa0" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="f7fa0" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="f7fa0" />
+    <option name="FILESTATUS_modifiedOutside" value="f7fa0" />
     <option name="GUTTER_BACKGROUND" value="73642" />
     <option name="INDENT_GUIDE" value="73642" />
     <option name="LINE_NUMBERS_COLOR" value="586e75" />
@@ -1929,7 +1934,7 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="b58900" />
-        <option name="BACKGROUND" />
+        <option name="BACKGROUND" value="2b36" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="0" />
@@ -4546,86 +4551,6 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="SCOPE_KEY_All">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Changed Files">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Default">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Non-Project Files">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Problems">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Production">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Project Files">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Tests">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="eee8d5" />
@@ -4871,16 +4796,6 @@
         <option name="FOREGROUND" value="268bd2" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
-        <option name="ERROR_STRIPE_COLOR" />
-      </value>
-    </option>
-    <option name="SQL_SYNTETIC_ENTITY">
-      <value>
-        <option name="FOREGROUND" />
-        <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="0" />
         <option name="ERROR_STRIPE_COLOR" />
